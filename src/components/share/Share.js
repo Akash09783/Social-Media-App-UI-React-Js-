@@ -29,6 +29,7 @@ function Share() {
                     <span className="shareOptionText">Feelings</span>
                 </div>
             </div>
+            <button className="shareButton">Share</button>
         </div>
       </div>
     </div>
