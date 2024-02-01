@@ -1,10 +1,11 @@
-
+import Home from './components/pages/home/Home';
 import './App.css';
-import Topbar from './components/Topbar';
+
 function App() {
   return (
  <>
-<Topbar/>
+
+<Home/>
  </>
      
   );
