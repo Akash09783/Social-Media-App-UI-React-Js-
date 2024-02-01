@@ -7,7 +7,8 @@ import { RssFeed, Chat,
     Event,
     School, } from '@mui/icons-material'
 import './sidebar.css'
-
+import { Users } from '../../dummyData'
+import CloseFriend from '../closeFriend/CloseFriend'
 function Siderbar() {
   return (
     <div className='sidebar'>
@@ -53,60 +54,9 @@ function Siderbar() {
         <button className='sidebarButton'>Show More</button>
      <hr className='sidebarHr' />
      <ul className="sidebarFriendList">
-        <li className="sidebarFriend">
-            <img className='sidebarFriendImg' src={require('../Images/Person/2.jpeg') } alt="" />
-            <span className="sidebarFriendName">Hemant Saini </span>
-
-
-        </li>
-        <li className="sidebarFriend">
-            <img className='sidebarFriendImg' src={require('../Images/Person/2.jpeg') } alt="" />
-            <span className="sidebarFriendName">Hemant Saini </span>
-
-
-        </li>
-        <li className="sidebarFriend">
-            <img className='sidebarFriendImg' src={require('../Images/Person/2.jpeg') } alt="" />
-            <span className="sidebarFriendName">Hemant Saini </span>
-
-
-        </li>
-        <li className="sidebarFriend">
-            <img className='sidebarFriendImg' src={require('../Images/Person/2.jpeg') } alt="" />
-            <span className="sidebarFriendName">Hemant Saini </span>
-
-
-        </li>
-        <li className="sidebarFriend">
-            <img className='sidebarFriendImg' src={require('../Images/Person/2.jpeg') } alt="" />
-            <span className="sidebarFriendName">Hemant Saini </span>
-
-
-        </li>
-        <li className="sidebarFriend">
-            <img className='sidebarFriendImg' src={require('../Images/Person/2.jpeg') } alt="" />
-            <span className="sidebarFriendName">Hemant Saini </span>
-
-
-        </li>
-        <li className="sidebarFriend">
-            <img className='sidebarFriendImg' src={require('../Images/Person/2.jpeg') } alt="" />
-            <span className="sidebarFriendName">Hemant Saini </span>
-
-
-        </li>
-        <li className="sidebarFriend">
-            <img className='sidebarFriendImg' src={require('../Images/Person/2.jpeg') } alt="" />
-            <span className="sidebarFriendName">Hemant Saini </span>
-
-
-        </li>
-        <li className="sidebarFriend">
-            <img className='sidebarFriendImg' src={require('../Images/Person/2.jpeg') } alt="" />
-            <span className="sidebarFriendName">Hemant Saini </span>
-
-
-        </li>
+ {Users.map((u)=>(
+  <CloseFriend key={u} user={u}/>
+ ))}
      </ul>
      </div>
     </div>

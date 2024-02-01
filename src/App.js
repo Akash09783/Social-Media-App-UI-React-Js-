@@ -1,11 +1,12 @@
-import Home from './components/pages/home/Home';
+// import Home from './components/pages/home/Home';
 import './App.css';
+import Profile from './profile/Profile';
 
 function App() {
   return (
  <>
 
-<Home/>
+<Profile/>
  </>
      
   );

@@ -1,52 +1,52 @@
 export const Users = [
     {
       id:1,
-      profilePicture: "./components/Images/Person/PR1.jpeg",
-      username: "Safak Kocaoglu",
+      profilePicture: require('./components/Images/Person/PR1.jpeg'),
+      username: "Katrina",
     },
     {
       id:2,
-      profilePicture: './components/Images/Person/2.jpeg',
-      username: "Janell Shrum",
+      profilePicture: require('./components/Images/Person/2.jpeg'),
+      username: "Hemant Saini",
     },
     {
       id:3,
-      profilePicture: './components/Images/Person/3.jpeg',
-      username: "Alex Durden",
+      profilePicture: require('./components/Images/Person/3.jpeg'),
+      username: "Ajay",
     },
     {
       id:4,
-      profilePicture: './components/Images/Person/4.jpeg',
-      username: "Dora Hawks",
+      profilePicture:require('./components/Images/Person/4.jpeg'),
+      username: "Stark",
     },
     {
       id:5,
-      profilePicture: "./components/Images/Person/5.jpeg",
+      profilePicture:require('./components/Images/Person/5.jpeg'),
       username: "Thomas Holden",
     },
     {
       id:6,
-      profilePicture: "./components/Images/Person/6.jpeg",
+      profilePicture: require('./components/Images/Person/6.jpeg'),
       username: "Shirley Beauchamp",
     },
     {
       id:7,
-      profilePicture: "./components/Images/Person/7.jpeg",
+      profilePicture: require('./components/Images/Person/7.jpeg'),
       username: "Travis Bennett",
     },
     {
       id:8,
-      profilePicture: "./components/Images/Person/8.jpeg",
+      profilePicture:require('./components/Images/Person/8.jpeg'),
       username: "Kristen Thomas",
     },
     {
       id:9,
-      profilePicture: "./components/Images/Person/9.jpeg",
+      profilePicture: require('./components/Images/Person/9.jpeg'),
       username: "Gary Duty",
     },
     {
       id:10,
-      profilePicture: "./components/Images/Person/10.jpeg",
+      profilePicture: require('./components/Images/Person/10.jpeg'),
       username: "Safak Kocaoglu",
     },
   ];
