@@ -1,12 +1,13 @@
 import React from "react";
 import topbar from '../topbar/Topbar.css'
 import { Search, Person, Chat, Notifications } from "@mui/icons-material";
+import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 function Topbar() {
   return (
     <>
       <div className="topbarContainer">
         <div className="topbarLeft">
-          <span className="logo">Starky Social</span>
+          <span className="logo">LovSocial<VolunteerActivismIcon/></span>
         </div>
         <div className="topbarCenter">
           <div className="searchbar">

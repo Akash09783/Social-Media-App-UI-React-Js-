@@ -29,7 +29,53 @@ const HomeRightbar = ()=>{
 
 const ProfileRightbar =()=>{
   return(
-    <h1>hey its profile</h1>
+    <>
+      <h4 className="'rightbarTitle">User Information</h4>
+      <br/>
+      <div className="rightbarInfo">
+      <div className="rightbarInfoItem">
+         <span className="rightbarInfoKey">City:</span>
+         <span className="rightbarInfoValue">Jaipur</span> 
+        </div>
+        <div className="rightbarInfoItem">
+         <span className="rightbarInfoKey">From:</span>
+         <span className="rightbarInfoValue">Rajasthan</span> 
+        </div>
+        <div className="rightbarInfoItem">
+         <span className="rightbarInfoKey">Relationship</span>
+         <span className="rightbarInfoValue">Single</span> 
+        </div>
+       
+      </div>
+      <h4 className="rightbarTitle">User Friends</h4>
+
+<div className="rightbarFollowings">
+<div className="rightbarFollowing">
+  <img className="rightbarFollowingImg" src={require('../Images/Person/PR1.jpeg')} alt="" />
+  <span className="rightbarFollowingName">Namasvi Kumawat</span>
+</div>
+<div className="rightbarFollowing">
+  <img className="rightbarFollowingImg" src={require('../Images/Person/2.jpeg')} alt="" />
+  <span className="rightbarFollowingName">Namasvi Kumawat</span>
+</div>
+<div className="rightbarFollowing">
+  <img className="rightbarFollowingImg" src={require('../Images/Person/3.jpeg')} alt="" />
+  <span className="rightbarFollowingName">Namasvi Kumawat</span>
+</div>
+<div className="rightbarFollowing">
+  <img className="rightbarFollowingImg" src={require('../Images/Person/4.jpeg')} alt="" />
+  <span className="rightbarFollowingName">Namasvi Kumawat</span>
+</div>
+<div className="rightbarFollowing">
+  <img className="rightbarFollowingImg" src={require('../Images/Person/5.jpeg')} alt="" />
+  <span className="rightbarFollowingName">Namasvi Kumawat</span>
+</div>
+<div className="rightbarFollowing">
+  <img className="rightbarFollowingImg" src={require('../Images/Person/6.jpeg')} alt="" />
+  <span className="rightbarFollowingName">Namasvi Kumawat</span>
+</div>
+</div>
+    </>
   )
 }
 
