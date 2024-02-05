@@ -1,5 +1,6 @@
 import React from "react";
 import topbar from '../topbar/Topbar.css'
+import {Link} from 'react-router-dom'
 import { Search, Person, Chat, Notifications } from "@mui/icons-material";
 import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 function Topbar() {
@@ -7,7 +8,10 @@ function Topbar() {
     <>
       <div className="topbarContainer">
         <div className="topbarLeft">
-          <span className="logo">LovSocial<VolunteerActivismIcon/></span>
+        <Link to="/" style={{textDecoration:"none"}}>
+        <span className="logo">LovSocial<VolunteerActivismIcon/></span>
+        </Link>
+         
         </div>
         <div className="topbarCenter">
           <div className="searchbar">

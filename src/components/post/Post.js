@@ -7,6 +7,10 @@ import { useState } from "react";
 function Post({post}) {
    const [like,SetLike]=useState(post.like)
    const [isLiked,SetIsLiked]=useState(false)
+
+
+
+
  const likeHandler=()=>{
   SetLike(isLiked?like-1:like+1);
   SetIsLiked(!isLiked)
@@ -32,7 +36,7 @@ function Post({post}) {
           <span className="postText">{post?.desc} </span>
           <img
             className="postImg"
-            src={post.photo}           alt=""
+            src={post.photo}          alt=""
           />
         
         </div>
