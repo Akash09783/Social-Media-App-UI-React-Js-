@@ -24,7 +24,7 @@ function Topbar() {
         </div>
         <div className="topbarRight">
           <div className="topbarLinks">
-          <Link to='/register'> <span className="topbarLink">HomePage</span></Link>
+          <Link to='/login' style={{textDecoration:"none"}}> <span style={{color:'white'}} className="topbarLink">HomePage</span></Link>
            
             <span className="topbarLink">TimeLine</span>
           </div>

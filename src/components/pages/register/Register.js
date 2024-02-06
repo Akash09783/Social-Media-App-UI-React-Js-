@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './resigster.css'
 
 export default function Register() {
@@ -16,7 +17,12 @@ export default function Register() {
             <input placeholder="Email" className="loginInput" />
             <input placeholder="Password" className="loginInput" />
             <input placeholder="Password Again" className="loginInput" />
+            <Link to="/login">
             <button className="loginButton">Sign Up</button>
+
+            </Link>
+          
+
             <button className="loginRegisterButton">
               Log into Account
             </button>
