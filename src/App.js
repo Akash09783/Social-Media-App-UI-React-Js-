@@ -1,6 +1,6 @@
 import Home from "./components/pages/home/Home";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Login from "./components/pages/login/Login";
 import Register from "./components/pages/register/Register";
 import Profile from "./profile/Profile";
@@ -8,17 +8,19 @@ import Profile from "./profile/Profile";
 function App() {
   return (
     <>
-      <BrowserRouter>
+   
+      <HashRouter>
         <Routes>
+        <Route path="/login" element={<Login/>} />
           <Route exact path="/" element={<Home />}>  </Route>
-            <Route path="/login" element={<Login/>} />
+         
             <Route path="/register" element={<Register />} />
 
             <Route path="/profile/:username" element={<Profile />} />
         
         </Routes>
       
-      </BrowserRouter>
+      </HashRouter>
 
     </>
   );

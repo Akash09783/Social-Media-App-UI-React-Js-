@@ -1,14 +1,14 @@
 import { Link } from 'react-router-dom';
 import './resigster.css'
-
+import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 export default function Register() {
   return (
     <div className="login">
       <div className="loginWrapper">
         <div className="loginLeft">
-          <h3 className="loginLogo">Lamasocial</h3>
+          <h3 className="loginLogo">LoveSocial<VolunteerActivismIcon/></h3>
           <span className="loginDesc">
-            Connect with friends and the world around you on Lamasocial.
+            Connect with friends and the world around you on LoveSocial<VolunteerActivismIcon/>
           </span>
         </div>
         <div className="loginRight">
