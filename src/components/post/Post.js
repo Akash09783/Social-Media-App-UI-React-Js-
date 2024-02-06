@@ -3,7 +3,7 @@ import "./post.css";
 import { MoreVert } from "@mui/icons-material";
 import { Users } from "../../dummyData";
 import { useState } from "react";
-
+import {Link} from 'react-router-dom'
 function Post({post}) {
    const [like,SetLike]=useState(post.like)
    const [isLiked,SetIsLiked]=useState(false)
@@ -25,6 +25,14 @@ function Post({post}) {
               src={Users.filter((u)=>u.id===post?.userId)[0].profilePicture}
               alt=""
             />
+            <Link to = "/profile" >
+
+            <img
+              className="postProfileImg"
+              src={Users.filter((u)=>u.id===post?.userId)[0].profilePicture}
+              alt=""
+            />
+            </Link>
             <span className="postUserName">{Users.filter((u)=>u.id===post.userId)[0].username} </span>
             <span className="postDate"> {post.date}</span>
           </div>
