@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Akash09783/Social-Media-App-UI-React-Js/static/css/main.4d807f21.css",
-    "main.js": "/Akash09783/Social-Media-App-UI-React-Js/static/js/main.28b02640.js",
-    "static/media/ad.png": "/Akash09783/Social-Media-App-UI-React-Js/static/media/ad.afd28e7ed07fdb0bd833.png",
-    "static/media/4.jpeg": "/Akash09783/Social-Media-App-UI-React-Js/static/media/4.3518a6b0f9ae4897fac5.jpeg",
-    "static/media/7.jpeg": "/Akash09783/Social-Media-App-UI-React-Js/static/media/7.fea4c13a8959077602cf.jpeg",
-    "static/media/9.jpeg": "/Akash09783/Social-Media-App-UI-React-Js/static/media/9.4303c42efbf9586f53cc.jpeg",
-    "static/media/8.jpeg": "/Akash09783/Social-Media-App-UI-React-Js/static/media/8.aa68096afe4fa2f70ed7.jpeg",
-    "static/media/10.jpeg": "/Akash09783/Social-Media-App-UI-React-Js/static/media/10.19633279ca321cb20f8c.jpeg",
-    "static/media/5.jpeg": "/Akash09783/Social-Media-App-UI-React-Js/static/media/5.13741948b6a3c21030e6.jpeg",
-    "static/media/2.jpeg": "/Akash09783/Social-Media-App-UI-React-Js/static/media/2.e32f080b24e6b1267d3a.jpeg",
-    "static/media/1.jpeg": "/Akash09783/Social-Media-App-UI-React-Js/static/media/1.4f948f4e8600bfb120b7.jpeg",
-    "static/media/3.jpeg": "/Akash09783/Social-Media-App-UI-React-Js/static/media/3.8b12f805a7bc46bc38df.jpeg",
-    "static/media/6.jpeg": "/Akash09783/Social-Media-App-UI-React-Js/static/media/6.0ff88cd1b4185466fad3.jpeg",
-    "static/media/PR1.jpeg": "/Akash09783/Social-Media-App-UI-React-Js/static/media/PR1.e83c837531f556b56707.jpeg",
-    "static/media/heart.png": "/Akash09783/Social-Media-App-UI-React-Js/static/media/heart.d03a620755af56068dbd.png",
-    "static/media/like.png": "/Akash09783/Social-Media-App-UI-React-Js/static/media/like.be1d10c9aba02398fa0c.png",
-    "static/media/gift.png": "/Akash09783/Social-Media-App-UI-React-Js/static/media/gift.4a9c4d62df0cccc684e3.png",
-    "index.html": "/Akash09783/Social-Media-App-UI-React-Js/index.html",
-    "main.4d807f21.css.map": "/Akash09783/Social-Media-App-UI-React-Js/static/css/main.4d807f21.css.map",
-    "main.28b02640.js.map": "/Akash09783/Social-Media-App-UI-React-Js/static/js/main.28b02640.js.map"
+    "main.css": "/Social-Media-App-UI-React-Js-/static/css/main.3a4ce6c4.css",
+    "main.js": "/Social-Media-App-UI-React-Js-/static/js/main.c8b41622.js",
+    "static/media/ad.png": "/Social-Media-App-UI-React-Js-/static/media/ad.afd28e7ed07fdb0bd833.png",
+    "static/media/4.jpeg": "/Social-Media-App-UI-React-Js-/static/media/4.3518a6b0f9ae4897fac5.jpeg",
+    "static/media/7.jpeg": "/Social-Media-App-UI-React-Js-/static/media/7.fea4c13a8959077602cf.jpeg",
+    "static/media/9.jpeg": "/Social-Media-App-UI-React-Js-/static/media/9.4303c42efbf9586f53cc.jpeg",
+    "static/media/8.jpeg": "/Social-Media-App-UI-React-Js-/static/media/8.aa68096afe4fa2f70ed7.jpeg",
+    "static/media/10.jpeg": "/Social-Media-App-UI-React-Js-/static/media/10.19633279ca321cb20f8c.jpeg",
+    "static/media/5.jpeg": "/Social-Media-App-UI-React-Js-/static/media/5.13741948b6a3c21030e6.jpeg",
+    "static/media/2.jpeg": "/Social-Media-App-UI-React-Js-/static/media/2.e32f080b24e6b1267d3a.jpeg",
+    "static/media/1.jpeg": "/Social-Media-App-UI-React-Js-/static/media/1.4f948f4e8600bfb120b7.jpeg",
+    "static/media/3.jpeg": "/Social-Media-App-UI-React-Js-/static/media/3.8b12f805a7bc46bc38df.jpeg",
+    "static/media/6.jpeg": "/Social-Media-App-UI-React-Js-/static/media/6.0ff88cd1b4185466fad3.jpeg",
+    "static/media/PR1.jpeg": "/Social-Media-App-UI-React-Js-/static/media/PR1.e83c837531f556b56707.jpeg",
+    "static/media/heart.png": "/Social-Media-App-UI-React-Js-/static/media/heart.d03a620755af56068dbd.png",
+    "static/media/like.png": "/Social-Media-App-UI-React-Js-/static/media/like.be1d10c9aba02398fa0c.png",
+    "static/media/gift.png": "/Social-Media-App-UI-React-Js-/static/media/gift.4a9c4d62df0cccc684e3.png",
+    "index.html": "/Social-Media-App-UI-React-Js-/index.html",
+    "main.3a4ce6c4.css.map": "/Social-Media-App-UI-React-Js-/static/css/main.3a4ce6c4.css.map",
+    "main.c8b41622.js.map": "/Social-Media-App-UI-React-Js-/static/js/main.c8b41622.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d807f21.css",
-    "static/js/main.28b02640.js"
+    "static/css/main.3a4ce6c4.css",
+    "static/js/main.c8b41622.js"
   ]
 }
