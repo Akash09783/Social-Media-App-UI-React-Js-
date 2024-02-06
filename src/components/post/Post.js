@@ -1,5 +1,6 @@
 import React from "react";
 import "./post.css";
+import Profile from '../../profile/Profile'
 import { MoreVert } from "@mui/icons-material";
 import { Users } from "../../dummyData";
 import { useState } from "react";
@@ -20,12 +21,8 @@ function Post({post}) {
       <div className="postWrapper">
         <div className="postTop">
           <div className="postTopLeft">
-            <img
-              className="postProfileImg"
-              src={Users.filter((u)=>u.id===post?.userId)[0].profilePicture}
-              alt=""
-            />
-            <Link to = "/profile" >
+         
+            <Link to = "/profile/:username" >
 
             <img
               className="postProfileImg"

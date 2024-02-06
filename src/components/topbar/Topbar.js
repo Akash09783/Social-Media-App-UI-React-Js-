@@ -24,7 +24,8 @@ function Topbar() {
         </div>
         <div className="topbarRight">
           <div className="topbarLinks">
-            <span className="topbarLink">HomePage</span>
+          <Link to='/register'> <span className="topbarLink">HomePage</span></Link>
+           
             <span className="topbarLink">TimeLine</span>
           </div>
 
@@ -42,7 +43,10 @@ function Topbar() {
               <span className="topbarIconBadge">1</span>
             </div>
           </div>
-      <img className="topbarImg" src={require("../Images/Person/PR1.jpeg")} alt="" />
+          <Link to="/profile/:username" style={{textDecoration:"none"}} >
+          <img className="topbarImg" src={require("../Images/Person/PR1.jpeg")} alt="" />
+          </Link>
+      
         </div>
       </div>
     </>
